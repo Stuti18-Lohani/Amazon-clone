@@ -3,263 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <title>Tic-Tac-Toe Game</title>
+    <link rel = "stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <div class="nav-logo border">
-                <div class="logo"></div>
-            </div>
-
-            <div class="nav-address border">
-                <p class="add1st">Delivering to Delhi 110008</p>
-                <div class="add-icon">
-                    <i class="fa-solid fa-location-dot"></i>
-
-                    <p class="add2nd">Updated location</p>
-                </div>
-            </div>
-
-            <div class="nav-search">
-                <select class="search select">
-                    <option>All</option>
-                </select>
-                <input placeholder="Search Amazon.in" class="search-input">
-                <div class="search-icon">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-            </div>
-
-            <div class="nav-signin border">
-                <p><span>Hello, sign in</span></p>
-                <p class="nav-2nd">Account & Lists</p>
-
-                
+  <div class="msg-container hide">
+    <p id="msg">Winner</p>
+    <button id="new-btn">New Game</button>
+  </div>
+    <main>
+        <h1>Tic-Tac-Toe</h1>
+        <div class="container">
+          <div class="game">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+          </div>
         </div>
-        <div class="nav-return border">
-            <p><span>Return</span></p>
-            <p class="nav-2nd">& Orders</p>
-
-        </div>
-        <div class="nav-cart border">
-            <i class="fa-solid fa-cart-shopping"></i>   
-            Cart
-        </div>
-        </div>
-
-
-
-
-
-
-        <div class="panel">
-            <div class="panel-all">
-                <i class="fa-solid fa-bars"></i>
-                All
-            </div>
-            <div class="panel-ops">
-                <select class="panel-ops-select Fresh">
-                    <option>Fresh</option>
-                </select>
-                <p>MX Player</p>
-                <p>Sell</p>
-                <p>Best Sellers</p>
-                <p>Today's deals</p>
-                <p>Mobiles</p>
-                <p>Electronic</p>
-                <p>Home & Kitchen</p>
-                <select class="panel-ops-select prime">
-                    <option>prime</option>
-                </select>
-            </div>
-
-            <div class="panel-deal">
-                <p>Great India Festival</p>
-                <div class="panel-deal-2nd">
-                    <p>SHOP NOW</p>
-                </div>
-            </div>
-        </div>
-    </header>
-    
-
-
-    <div class="hero-section">
-        <div class="hero-message">
-            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.<a> Click here to go to amazon.in</a></p>
-        </div>
-    </div>
-
-
-
-    <div class="shop-section">
-    
-        <div class="box1 box">
-            <h2 class="box-mess">Up to 65% off</h2>
-            <div class="box-img1">
-            </div>
-            <div class="See-more">See more</div>
-        </div>
-        <div class="box2 box">
-            <h2 class="box-mess">Treadmill 80% off</h2>
-            <div class="box-img2"></div>
-            <div class="See-more">
-                See more
-            </div>
-        </div>
-        <div class="box3 box">
-            <h2 class="box-mess">Bicycle 60% off</h2>
-            <div class="box-img3"></div>
-            <div class="See-more">See more</div>
-    </div>
-        <div class="box4 box">
-            <h2 class="box-mess">Cockatoo</h2>
-            <div class="box-img4"></div>
-            <div class="See-more">See more</div>
-        </div>
-    
-
-<div class="box5 box">
-            <h2 class="box-mess">Dumbbells</h2>
-            <div class="box-img5">
-            </div>
-            <div class="See-more">See more</div>
-        </div>
-        <div class="box6 box">
-            <h2 class="box-mess">Sports items</h2>
-            <div class="box-img6"></div>
-            <div class="See-more">
-                See more
-            </div>
-        </div>
-        
-    </div>
-
-     
-
-    <div class="shop-section2">
-        <div class="fashion1 fashion">
-            <h2 class="box-mess">Cloths</h2>
-            <div class="box-img7"></div>
-                <div class="See-more">See more
-            </div>
-        </div>
-
-        <div class="fashion2 fashion">
-            <h2 class="box-mess">Footwear</h2>
-            <div class="box-img8"></div>
-                <div class="See-more">See more
-            </div>
-        </div>
-
-
-        <div class="fashion3 fashion">
-            <h2 class="box-mess">Beauty and Makeup</h2>
-            <div class="box-img9"></div>
-            <div class="See-more">See more</div>
-        </div>
-        </div>
-     
-
-        <div class="shop-section3">
-            <div class="sports1 Sports">
-                <h2 class="box-mess">Cricket</h2>
-                <div class="box-img10"></div>
-                <div class="See-more">See more</div>
-            </div>
-
-
-            <div class="sports2 Sports">
-                <h2 class="box-mess">Football</h2>
-                <div class="box-img11"></div>
-                <div class="See-more">See more</div>
-            </div>
-
-            <div class="sports3 Sports">
-                <h2 class="box-mess">Skating</h2>
-                <div class="box-img12"></div>
-                <div class="See-more">See more</div>
-            </div>
-        </div>
-
-    <footer>
-        <div class="foot-panel1">
-            Back to top
-        </div>
-
-        <div class="foot-panel2">
-            <ul>
-                <p>Get to Know Us </p>
-                    <a>About Amazon</a>
-                    <a>Careers</a>
-                    <a>Press Releases</a>
-                    <a>Amazon Science</a>
-                
-            </ul>
-
-            <ul>
-                <p>Connect with Us </p>
-                    <a>Facebook</a>
-                    <a>Twitter</a>
-                    <a>Instagram</a>
-            
-                
-            </ul>
-
-
-
-            <ul>
-                <p>Make Money with Us </p>
-                    <a>Sell on Amazon</a>
-                    <a>Sell under Amazon Accelerator</a>
-                    <a>Protect and Build Your Brand</a>
-                    <a>Amazon Global Selling</a>
-                    <a>Supply to Amazon</a>
-                    <a>Become an Affiliate</a>
-                    <a>Fulfilment by Amazon</a>
-                    <a>Advertise Your Products</a>
-                    <a>Amazon Pay on Merchants</a>
-                
-            </ul>
-
-
-            <ul>
-                <p>Let Us Help You </p>
-                    <a>Your Account</a>
-                    <a>Returns Centre</a>
-                    <a>Recalls and Product Safety Alerts</a>
-                    <a>100% Purchase Protection</a>
-                    <a>Amazon App Download</a>
-                    <a>Help</a>
-                
-            </ul>
-        </div>
-
-        <div class="foot-panel3">
-            <div class="logo2"></div>
-        </div>
-
-
-        <div class="foot-panel4">
-            <div class="pages">
-                <a>Conditions of Use & Sale</a>
-                <a>Privacy of Notice</a>
-                <a>Interest-Based Ads</a>
-            </div>
-
-            <div class="copyright">
-                © 1996-2024, Amazon.com, Inc. or its affiliates
-            </div>
-        </div>
-    </footer>
-          
-
-    
-
-
+        <button id="reset-btn">Reset Game</button>
+    </main>
+   
+    <script src="script.js"></script>
 </body>
+
 </html>
